@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+        integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>登陆界面</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <img src="https://w.wallhaven.cc/full/m9/wallhaven-m9xyg8.jpg" width="200" alt="user" />
+        </div>
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">相册</a></li>
+            <li><a href="#">博客</a></li>
+            <li><a href="#">联系我们</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <button id="toggle" class="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
+        <h1>登录页</h1>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut perspiciatis voluptate iusto fugit dignissimos
+            accusamus minima illo maxime, ut provident doloremque repudiandae voluptates non animi asperiores fugiat
+            quasi magnam? Aspernatur!
+        </p>
+        <div class="cta-btn" id="open">注册</div>
+
+    </header>
+
+    <div class="container">
+        <h2>护心——白晓生</h2>
+        <p>我曾捡到一束光，日落时还给了太阳，
+            我知道那不是我的太阳，但有一刻，太阳确实照在了我身上。
+            日落归山海，山海藏深意、没有人不遗憾，只是有人不喊痛，
+            无能为力时，人们总爱说顺其自然，我抓不住世间美好，只好装作万事顺遂的样子。
+        </p>
+        <h2>飘雪</h2>
+        <p>
+            命运啊早有安排，
+            最后是归尘埃
+        </p>
+        <h2>体育生&二手玫瑰</h2>
+        <p>
+            我很快就不会再年轻了，
+            而你，
+            还会年轻很久
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Cupiditate debitis, laboriosam nobis ducimus inventore ipsam esse earum nihil eaque temporibus laborum aspernatur facilis harum eligendi. Quasi vitae explicabo nostrum ea.
+        </p>
+    </div>
+
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h3>注册</h3>
+            </div>
+            <div class="modal-content">
+                <p>注册加入我吧，一起来看护心</p>
+                <form class="modal-form">
+                    <div>
+                        <label for="name">用户名</label>
+                        <input type="text" id="name" placeholder="请输入用户名" class="form-input"/>
+                    </div>
+                    <div>
+                        <label for="email">邮箱</label>
+                        <input type="email" id="email" placeholder="请输入邮箱" class="form-input"/>
+                    </div>
+                    <div>
+                        <label for="password">密码</label>
+                        <input type="password" id="password" placeholder="请输入密码" class="form-input"/>
+                    </div>
+                    <input type="submit" value="注册" class="submit-btn"/>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吊死男宝</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>吊死男宝</h1>
+    <p>找到隐藏的单词——输入字母a-z</p>
+    <div class="game-container">
+        <div class="wrong-letters-container">
+            
+            <div id="wrong-letters"></div>
+        </div>
+        <svg height="250" width="260" class="figure-container">
+            <line x1="60" y1="20" x2="220" y2="20" />
+            <line x1="220" y1="20" x2="220" y2="230" />
+            <line x1="140" y1="20" x2="140" y2="50" />
+            <line x1="60" y1="20" x2="60" y2="230" />
+            <line x1="30" y1="230" x2="90" y2="230" />
+            <line x1="190" y1="230" x2="250" y2="230" />
+
+            <circle cx="140" cy="70" r="18" class="figure-part"></circle>
+
+            <!-- Body -->
+            <line x1="140" y1="90" x2="140" y2="130" class="figure-part" />
+            <!-- Arms -->
+            <line x1="140" y1="110" x2="120" y2="100" class="figure-part" />
+            <line x1="140" y1="110" x2="160" y2="100" class="figure-part" />
+            <!-- Legs -->
+            <line x1="140" y1="125" x2="120" y2="140" class="figure-part" />
+            <line x1="140" y1="125" x2="160" y2="140" class="figure-part" />
+        </svg>
+        
+
+        <div class="word" id="word"></div>
+    </div>
+    
+    <div class="popup-container" id="popup-container">
+        <div class="popup">
+            <h2 id="final-message"></h2>
+            <h3 id="final-message-reveal-word"></h3>
+            <button id="play-button"> 再来一次</button>
+        </div>
+    </div>
+
+    <div class="notification-container" id="notification-container">
+        <p>你已经输入过这个字母了🧐</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
